@@ -1,0 +1,85 @@
+@font-face { font-family: Gothic1; src: url('../font/gothic1.eot'); src: url('../font/gothic1.woff') format('woff'), url('../font/gothic1.otf') format('truetype'), url('../font/gothic1.svg') format('svg'); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(../font/PTSans.woff) format('woff');
+}
+
+a {text-decoration:none}
+
+* {margin:0; padding:0}
+
+body {
+	background-image:url(../slide/3.jpg);
+background-size:cover;
+
+	font-family:'PT Sans',arial;
+}
+
+h1 {font-family:Gothic1,arial; font-size:55px; font-weight:normal; margin:0px 0px}
+
+.sidebar {
+	position:fixed;
+	left:50px;
+	top:0px;	
+	height:500px;
+	width:200px;
+	background:rgba(0,0,0,0.8);
+	padding:20px;
+	border-radius: 0px  0px 15px 15px;
+	color:#fff;
+}
+
+.logo img {
+	width:80%;	
+}
+
+.logo {
+	text-align:center;	
+}
+
+.backslider {
+	width:100%;
+	position:relative;
+	height:400px;
+	
+}	
+
+.backslider img {
+	position:absolute;
+	margin-top:0;
+	
+}
+
+
+.mainmenu {
+	list-style:none;
+}
+
+.mainmenu li {
+	margin-left:0px;	
+	padding:10px 0px;
+	border-bottom:#666 1px solid;
+}
+
+.mainmenu li a {
+	color:#fff;
+	padding:10px 0px;
+	font-weight:bold;
+}	
+
+.mainmenu li a:hover {
+	color:#2ecc71	
+}
+
+.content {
+	background:#fff;
+	padding:20px 30px;
+	width:70%;
+	position:fixed;
+	border-radius:5px;
+}
+
+/* #27ae60 , #2ecc71 *

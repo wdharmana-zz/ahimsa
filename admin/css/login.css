@@ -1,0 +1,58 @@
+@font-face { font-family: Gothic1; src: url('../../font/gothic1.eot'); src: url('../../font/gothic1.woff') format('woff'), url('../../font/gothic1.otf') format('truetype'), url('../../font/gothic1.svg') format('svg'); }
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(../../font/PTSans.woff) format('woff');
+}
+
+h1 {
+		font-family: Gothic1,arial;
+		color:#fff;
+		font-weight:normal;
+		font-size:80px;
+		margin-bottom:10px;
+		border-bottom:3px solid #fff;
+		padding-bottom:0px;
+}
+
+body {
+	background:#F8F8F8;	
+	font-family: 'PT Sans';
+}
+
+#login-form {
+	margin:0 auto;
+	width:450px;
+	background:#333;
+	color:#fff;	
+	padding:30px 0px;
+	font-size:20px;
+}
+
+input[type="text"],input[type="password"] {
+	padding:2.5px 5px;	
+	font-family: 'PT Sans';
+	font-size:16px;
+	
+}
+
+input[type="submit"] {
+	padding:10px 15px;
+	background:#27ae60;
+	color:#fff;
+	border:0px;	
+	margin-top:15px;
+}
+
+input[type="button"] {
+	padding:10px 25px;
+	background:#dedede;
+	color:#000;
+	border:0px;	
+}
+
+.logo {
+	margin-bottom:10px;	
+}
